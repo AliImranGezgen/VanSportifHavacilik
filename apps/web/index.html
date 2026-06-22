@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!-- Primary SEO Meta Tags -->
+    <title>Van Sportif Havacılık Kulübü | Yamaç Paraşütü Eğitimleri ve Tandem Uçuş</title>
+    <meta name="description" content="Van Sportif Havacılık Kulübü ile Van’da yamaç paraşütü başlangıç eğitimleri, P1-P2 eğitim süreçleri ve tandem uçuş deneyimleri hakkında bilgi alın.">
+    <meta name="keywords" content="Van yamaç paraşütü, Van tandem uçuş, Van Sportif Havacılık Kulübü, P1 P2 yamaç paraşütü eğitimi, Van havacılık">
+    <meta name="author" content="Van Sportif Havacılık Kulübü">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="tr_TR">
+    <meta property="og:url" content="https://www.vansportifhavacilik.org/">
+    <meta property="og:title" content="Van Sportif Havacılık Kulübü | Yamaç Paraşütü Eğitimleri ve Tandem Uçuş">
+    <meta property="og:description" content="Van Sportif Havacılık Kulübü ile Van’da yamaç paraşütü başlangıç eğitimleri, P1-P2 eğitim süreçleri ve tandem uçuş deneyimleri hakkında bilgi alın.">
+    <meta property="og:site_name" content="Van Sportif Havacılık Kulübü">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- JavaScript -->
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="main-header" id="home">
+        <div class="container header-container">
+            <a href="#home" class="logo" aria-label="Van Sportif Havacılık Kulübü Ana Sayfa">
+                <!-- Paraglider Icon SVG -->
+                <svg class="logo-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 2C6.48 2 2 5.58 2 10C2 12.18 3.08 14.18 5 15.65V20.5C5 21.33 5.67 22 6.5 22H17.5C18.33 22 19 21.33 19 20.5V15.65C20.92 14.18 22 12.18 22 10C22 5.58 17.52 2 12 2Z" fill="currentColor" fill-opacity="0.15"/>
+                    <path d="M12 2C6.48 2 2 5.58 2 10C2 13.5 5 15.5 8 16V22M12 2V22M12 2C17.52 2 22 5.58 22 10C22 13.5 19 15.5 16 16V22" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M8 22H16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+                <span class="logo-text">Van Sportif <span class="highlight">Havacılık</span></span>
+            </a>
+            
+            <nav class="nav-menu" id="navMenu">
+                <ul class="nav-list">
+                    <li><a href="#hakkimizda" class="nav-link">Hakkımızda</a></li>
+                    <li><a href="#faaliyetlerimiz" class="nav-link">Faaliyetlerimiz</a></li>
+                    <li><a href="#egitimler" class="nav-link">Eğitimler</a></li>
+                    <li><a href="#tandem" class="nav-link">Tandem Uçuş</a></li>
+                    <li><a href="#galeri" class="nav-link">Galeri</a></li>
+                    <li><a href="#iletisim" class="nav-link btn-nav" aria-label="İletişim Sayfasına Git">İletişim</a></li>
+                </ul>
+            </nav>
+            
+            <button class="hamburger" id="hamburgerBtn" aria-label="Menüyü Aç/Kapat" aria-expanded="false" aria-controls="navMenu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-bg-overlay"></div>
+            <div class="hero-clouds"></div>
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <span class="hero-badge">Van Sportif Havacılık Kulübü</span>
+                    <h1 class="hero-title">Van’ın Gökyüzüne Açılan Kapısı</h1>
+                    <p class="hero-subtitle">Van Sportif Havacılık Kulübü ile yamaç paraşütü eğitimleri, tandem uçuşlar ve sportif havacılık faaliyetleriyle gökyüzünü keşfedin.</p>
+                    
+                    <div class="hero-actions">
+                        <a href="#egitimler" class="btn btn-primary" aria-label="P1-P2 Başlangıç Eğitimleri Bölümüne Git">
+                            P1–P2 Başlangıç Eğitimleri
+                        </a>
+                        <a href="#tandem" class="btn btn-secondary" aria-label="Tandem Uçuş Başvurusu Bölümüne Git">
+                            Tandem Uçuş Başvurusu
+                        </a>
+                    </div>
+                    
+                    <div class="hero-trust-note">
+                        <svg class="trust-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <span>Uçuşlar hava koşulları ve pilot değerlendirmesine göre planlanır.</span>
+                    </div>
+                </div>
+                
+                <div class="hero-visual">
+                    <div class="hero-card-promo">
+                        <div class="promo-icon-wrapper">
+                            <svg class="promo-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/>
+                                <path d="M12 6v6l4 2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h3>Emniyetli Uçuş</h3>
+                        <p>Tüm süreçler lisanslı eğitmenler eşliğinde en yüksek güvenlik standartlarında yönetilir.</p>
+                    </div>
+                    
+                    <div class="hero-paraglider-graphic">
+                        <!-- Abstract Paraglider CSS/SVG Frame -->
+                        <div class="paraglider-art">
+                            <svg class="art-svg" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="artGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" stop-color="#38bdf8"/>
+                                        <stop offset="100%" stop-color="#0284c7"/>
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="100" cy="100" r="80" fill="url(#artGrad)" fill-opacity="0.1" stroke="#0ea5e9" stroke-width="1" stroke-dasharray="4 4"/>
+                                <path d="M40 80C40 80 70 30 100 30C130 30 160 80 160 80" stroke="#f97316" stroke-width="3" stroke-linecap="round"/>
+                                <path d="M40 80L100 150L160 80" stroke="#0ea5e9" stroke-width="1" stroke-opacity="0.5"/>
+                                <path d="M70 60L100 150L130 60" stroke="#0ea5e9" stroke-width="0.75" stroke-opacity="0.3"/>
+                                <circle cx="100" cy="150" r="8" fill="#0f172a" stroke="#fff" stroke-width="2"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hakkımızda Section -->
+        <section class="about-section" id="hakkimizda">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Kurumsal</span>
+                    <h2 class="section-title">Hakkımızda</h2>
+                    <div class="section-divider"></div>
+                </div>
+                
+                <div class="about-grid">
+                    <div class="about-content">
+                        <p class="about-text">
+                            Van Sportif Havacılık Kulübü, Van’da yamaç paraşütü ve sportif havacılık faaliyetlerinin gelişmesi için çalışan, eğitim, uçuş organizasyonları ve sporcu yetiştirme faaliyetleri yürüten yerel bir havacılık kulübüdür. 
+                        </p>
+                        <p class="about-text">
+                            Kulübümüz, Van’ın eşsiz doğasını ve coğrafi hava potansiyelini tanıtmayı, yamaç paraşütünde güvenli uçuş kültürünü yaygınlaştırmayı ve havacılığa meraklı yeni pilot adaylarını sportif havacılıkla buluşturarak gökyüzüne kazandırmayı hedefler.
+                        </p>
+                    </div>
+                    
+                    <div class="about-card-info">
+                        <div class="info-card-header">
+                            <h3 class="info-card-title">Kurumsal Bilgiler</h3>
+                        </div>
+                        <div class="info-card-body">
+                            <div class="info-item">
+                                <span class="info-label">Kulüp Başkanı</span>
+                                <span class="info-value">İlhan Gezgen</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Konum / Merkez</span>
+                                <span class="info-value">Van / İpekyolu</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Uzmanlık Alanı</span>
+                                <span class="info-value">Yamaç Paraşütü ve Sportif Havacılık</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Faaliyet Coğrafyası</span>
+                                <span class="info-value">Van Gölü Havzası ve Çevresi</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Faaliyetlerimiz Section -->
+        <section class="activities-section" id="faaliyetlerimiz">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Neler Yapıyoruz?</span>
+                    <h2 class="section-title">Faaliyetlerimiz</h2>
+                    <div class="section-divider"></div>
+                </div>
+                
+                <div class="activities-grid">
+                    <!-- Card 1 -->
+                    <article class="activity-card">
+                        <div class="card-visual card-grad-1">
+                            <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M12 22V12M12 12L8 8M12 12L16 8M12 2C6.48 2 2 5.58 2 10c0 3.5 3.5 6 6.5 6.5l3.5 5.5 3.5-5.5c3-.5 6.5-3 6.5-6.5 0-4.42-4.48-8-10-8z" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Yamaç Paraşütü Başlangıç Eğitimleri</h3>
+                            <p class="card-desc">P1-P2 seviyesinde yamaç paraşütüne güvenli ve doğru başlangıç yapmak isteyen adaylara yönelik bilgilendirme ve eğitim süreçleri.</p>
+                        </div>
+                    </article>
+
+                    <!-- Card 2 -->
+                    <article class="activity-card">
+                        <div class="card-visual card-grad-2">
+                            <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                                <circle cx="9" cy="7" r="4"/>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                            </svg>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Tandem Yamaç Paraşütü Uçuşları</h3>
+                            <p class="card-desc">Profesyonel pilotlar eşliğinde Van’ın eşsiz manzarasını gökyüzünden deneyimlemek isteyenler için tandem uçuş bilgilendirmesi.</p>
+                        </div>
+                    </article>
+
+                    <!-- Card 3 -->
+                    <article class="activity-card">
+                        <div class="card-visual card-grad-3">
+                            <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Sportif Havacılık Tanıtım Faaliyetleri</h3>
+                            <p class="card-desc">Gençleri ve havacılık meraklılarını sportif havacılık kültürüyle buluşturan tanıtım faaliyetleri.</p>
+                        </div>
+                    </article>
+
+                    <!-- Card 4 -->
+                    <article class="activity-card">
+                        <div class="card-visual card-grad-4">
+                            <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Bölgesel Etkinlik ve Yarışma Katılımları</h3>
+                            <p class="card-desc">Van’da ve bölgede sportif havacılığın gelişimine katkı sunan etkinlik, yarışma ve organizasyon süreçleri.</p>
+                        </div>
+                    </article>
+
+                    <!-- Card 5 -->
+                    <article class="activity-card">
+                        <div class="card-visual card-grad-5">
+                            <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+                                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+                            </svg>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Gençlere Yönelik Havacılık Farkındalığı</h3>
+                            <p class="card-desc">Yeni pilot adaylarını destekleyen, güvenli uçuş bilincini artıran ve havacılık kültürünü yaygınlaştıran çalışmalar.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- P1-P2 Başlangıç Eğitimleri Section -->
+        <section class="training-section" id="egitimler">
+            <div class="container training-grid">
+                <div class="training-info">
+                    <span class="section-tag-light">Gökyüzü Okulu</span>
+                    <h2 class="training-title">Yamaç Paraşütü P1–P2 Başlangıç Eğitimleri</h2>
+                    <p class="training-text">
+                        Yamaç paraşütüne güvenli, doğru ve profesyonel adımlarla başlamak isteyen havacı adaylarımız için özel olarak yapılandırılmış eğitim süreçlerimiz hakkında detaylı bilgi alabilirsiniz. 
+                    </p>
+                    <p class="training-text">
+                        Kulübümüz eğitmenleri gözetiminde yürütülen eğitimler; havacılık teorisinden yer çalışmalarına, donanım kontrolünden ilk yalnız süzülüş uçuşlarına kadar olan tüm temel süreçleri kapsar.
+                    </p>
+                    
+                    <a href="#iletisim" class="btn btn-orange" aria-label="Eğitim Bilgisi Almak İçin İletişim Bölümüne Git">
+                        Eğitim Bilgisi Al
+                    </a>
+                </div>
+                
+                <div class="training-syllabus">
+                    <h3 class="syllabus-title">Eğitim Süreci Aşamaları</h3>
+                    <ul class="syllabus-list">
+                        <li>
+                            <div class="syllabus-number">1</div>
+                            <div class="syllabus-content">
+                                <h4>Temel Teorik Bilgilendirme</h4>
+                                <p>Aerodinamik, meteoroloji, uçuş emniyeti ve havacılık kuralları üzerine sınıfta veya teorik seminerlerde temel teorik dersler.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="syllabus-number">2</div>
+                            <div class="syllabus-content">
+                                <h4>Ekipman Tanıtımı</h4>
+                                <p>Kanat (kupola), kuşam (harness), yedek paraşüt, kask ve telsiz gibi uçuş ekipmanlarının teknik detayları ve kullanımı.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="syllabus-number">3</div>
+                            <div class="syllabus-content">
+                                <h4>Yer Çalışmaları</h4>
+                                <p>Kanat serme, kubbe şişirme, kanat kontrolü ve düzgün kalkış koşusu tekniklerini içeren uygulamalı saha antrenmanları.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="syllabus-number">4</div>
+                            <div class="syllabus-content">
+                                <h4>Güvenli Uçuş Kültürü</h4>
+                                <p>Uçuş emniyeti kuralları, acil durum senaryoları ve aktif emniyet disiplininin sporcu karakterine yerleştirilmesi.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="syllabus-number">5</div>
+                            <div class="syllabus-content">
+                                <h4>Uçuş Süreci Hakkında Bilgilendirme</h4>
+                                <p>İlk telsiz kontrollü alçak irtifa süzülüşleri ve pilotaj becerilerinin başlangıç seviyesinde geliştirilmesi hakkında bilgilendirme.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tandem Uçuşlar Section -->
+        <section class="tandem-section" id="tandem">
+            <div class="container tandem-grid">
+                <div class="tandem-visual">
+                    <!-- Aesthetic Glass Box depicting Flight experience -->
+                    <div class="flight-experience-card">
+                        <div class="card-header-experience">
+                            <span class="badge-experience">Eşsiz Deneyim</span>
+                            <h3>Gökyüzünde Süzülün</h3>
+                        </div>
+                        <p>Profesyonel pilotlarımız kontrolünde Van Kalesi, Van Gölü ve İpekyolu semalarında özgürlüğün tadını çıkarın. Eğitim veya lisans gerekmeden doğrudan uçuş keyfi.</p>
+                        
+                        <div class="experience-highlights">
+                            <div class="ex-badge">Van Gölü Manzarası</div>
+                            <div class="ex-badge">Lisanslı Pilotlar</div>
+                            <div class="ex-badge">HD Video Çekimi</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tandem-info">
+                    <span class="section-tag">Çift Kişilik Uçuş</span>
+                    <h2 class="tandem-title">Van’da Tandem Yamaç Paraşütü Deneyimi</h2>
+                    <p class="tandem-text">
+                        Profesyonel ve tecrübeli pilotlarımız eşliğinde Van’ın eşsiz coğrafi güzelliklerini ve Van Gölü’nün büyüleyici rengini gökyüzünden deneyimlemek için tandem yamaç paraşütü uçuşları hakkında bilgi alabilirsiniz.
+                    </p>
+                    <p class="tandem-text">
+                        Herhangi bir teorik bilgi veya eğitim gerektirmeyen bu uçuşlarda, yalnızca pilotunuzun talimatlarına uyarak gökyüzünün ve muhteşem manzaranın keyfini sürersiniz.
+                    </p>
+                    
+                    <div class="tandem-alert">
+                        <div class="alert-icon-wrapper">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <line x1="12" y1="8" x2="12" y2="12"/>
+                                <line x1="12" y1="16" x2="12.01" y2="16"/>
+                            </svg>
+                        </div>
+                        <div class="alert-text">
+                            <strong>Not:</strong> Tandem uçuşlar tamamen güncel hava durumu, saha koşulları ve sorumlu pilotun emniyet değerlendirmesine göre planlanır ve gerçekleştirilir.
+                        </div>
+                    </div>
+                    
+                    <a href="#iletisim" class="btn btn-primary" aria-label="Tandem Uçuş İletişimine Geçmek İçin İletişim Bölümüne Git">
+                        Tandem Uçuş İçin İletişime Geç
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Neden Biz Section -->
+        <section class="why-section">
+            <div class="container why-container">
+                <div class="why-visual">
+                    <div class="gradient-shape"></div>
+                    <div class="why-box-content">
+                        <h3>Güvenli Uçuş Standartları</h3>
+                        <p>Van Sportif Havacılık Kulübü olarak uçuş operasyonlarında "Sıfır Hata" ve maksimum güvenlik prensibini uyguluyoruz.</p>
+                    </div>
+                </div>
+                
+                <div class="why-info">
+                    <span class="section-tag">Neden Biz?</span>
+                    <h2 class="why-title">Neden Van Sportif Havacılık Kulübü?</h2>
+                    <p class="why-subtitle">Van'da havacılık sporunu en üst kalitede ve güvenli standartlarda yapmanızı sağlayan yerel ekibimizin farkı:</p>
+                    
+                    <ul class="why-list">
+                        <li>
+                            <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"/>
+                            </svg>
+                            <span>Yerel uçuş bölgelerine (hava akımları, iniş ve kalkış pistleri) tamamen hâkim deneyimli ekip.</span>
+                        </li>
+                        <li>
+                            <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"/>
+                            </svg>
+                            <span>Emniyeti birinci planda tutan güvenlik odaklı havacılık ve uçuş kültürü.</span>
+                        </li>
+                        <li>
+                            <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"/>
+                            </svg>
+                            <span>Başlangıç seviyesinden (P1-P2) ileri seviye uçuşlara kadar kapsamlı sportif havacılık yaklaşımı.</span>
+                        </li>
+                        <li>
+                            <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"/>
+                            </svg>
+                            <span>Van’ın doğal uçuş potansiyelini ulusal ve uluslararası arenada tanıtma vizyonu.</span>
+                        </li>
+                        <li>
+                            <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"/>
+                            </svg>
+                            <span>Gençleri, sporseverleri ve yeni pilot adaylarını her aşamada destekleyen kurumsal kulüp yaklaşımı.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Galeri Section -->
+        <section class="gallery-section" id="galeri">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Anlar ve Anılar</span>
+                    <h2 class="section-title">Galeri</h2>
+                    <div class="section-divider"></div>
+                    <p class="section-subtitle">Kulüp faaliyetlerimizden, eğitimlerimizden ve tandem uçuşlarımızdan kesitler. Gerçek fotoğraflar yakında eklenecektir.</p>
+                </div>
+                
+                <div class="gallery-grid">
+                    <!-- Photo 1 -->
+                    <figure class="gallery-item">
+                        <div class="gallery-placeholder grad-blue-sky">
+                            <svg class="gallery-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+                                <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/>
+                                <path d="M3.6 9h16.8M3.6 15h16.8M11.5 3c-3 4.5-3 13.5 0 18M12.5 3c3 4.5 3 13.5 0 18" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span class="placeholder-caption">Van Sportif Havacılık Kulübü</span>
+                        </div>
+                        <figcaption class="gallery-caption">
+                            <h4>Van’da Yamaç Paraşütü</h4>
+                            <p>Eşsiz Van Gölü manzarası eşliğinde süzülüş.</p>
+                        </figcaption>
+                    </figure>
+
+                    <!-- Photo 2 -->
+                    <figure class="gallery-item">
+                        <div class="gallery-placeholder grad-orange-sunset">
+                            <svg class="gallery-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                                <circle cx="9" cy="7" r="4"/>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                            </svg>
+                            <span class="placeholder-caption">Van Sportif Havacılık Kulübü</span>
+                        </div>
+                        <figcaption class="gallery-caption">
+                            <h4>Tandem Uçuş</h4>
+                            <p>Deneyimli pilotlarla gökyüzü heyecanı.</p>
+                        </figcaption>
+                    </figure>
+
+                    <!-- Photo 3 -->
+                    <figure class="gallery-item">
+                        <div class="gallery-placeholder grad-blue-dark">
+                            <svg class="gallery-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+                                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+                                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+                            </svg>
+                            <span class="placeholder-caption">Van Sportif Havacılık Kulübü</span>
+                        </div>
+                        <figcaption class="gallery-caption">
+                            <h4>Başlangıç Eğitimi</h4>
+                            <p>P1-P2 seviyesi teorik ve pratik yer dersleri.</p>
+                        </figcaption>
+                    </figure>
+
+                    <!-- Photo 4 -->
+                    <figure class="gallery-item">
+                        <div class="gallery-placeholder grad-teal-green">
+                            <svg class="gallery-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                            <span class="placeholder-caption">Van Sportif Havacılık Kulübü</span>
+                        </div>
+                        <figcaption class="gallery-caption">
+                            <h4>Uçuş Alanları</h4>
+                            <p>Van'ın kalkış pistleri ve rüzgar alan bölgeleri.</p>
+                        </figcaption>
+                    </figure>
+
+                    <!-- Photo 5 -->
+                    <figure class="gallery-item">
+                        <div class="gallery-placeholder grad-purple-dusk">
+                            <svg class="gallery-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+                                <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" fill-opacity="0.15"/>
+                                <path d="M12 2L2 22h20L12 2z"/>
+                            </svg>
+                            <span class="placeholder-caption">Van Sportif Havacılık Kulübü</span>
+                        </div>
+                        <figcaption class="gallery-caption">
+                            <h4>Gökyüzü Deneyimi</h4>
+                            <p>Lake Van üzerinde süzülerek uçma hazzı.</p>
+                        </figcaption>
+                    </figure>
+
+                    <!-- Photo 6 -->
+                    <figure class="gallery-item">
+                        <div class="gallery-placeholder grad-pink-sunset">
+                            <svg class="gallery-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+                                <path d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span class="placeholder-caption">Van Sportif Havacılık Kulübü</span>
+                        </div>
+                        <figcaption class="gallery-caption">
+                            <h4>Sportif Havacılık</h4>
+                            <p>Havacılık bilincini artıran ortak etkinliklerimiz.</p>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <!-- İletişim Section -->
+        <section class="contact-section" id="iletisim">
+            <div class="container contact-container">
+                <div class="contact-card">
+                    <span class="section-tag">Bize Ulaşın</span>
+                    <h2 class="contact-title">Eğitim ve Tandem Uçuş Bilgisi İçin İletişime Geçin</h2>
+                    <p class="contact-text">
+                        P1–P2 başlangıç eğitimleri, tandem (çift kişilik) uçuşlar ve Van Sportif Havacılık Kulübü faaliyetleri hakkında detaylı bilgi almak, rezervasyon koşullarını öğrenmek veya başvuru yapmak için Instagram hesabımızdan veya telefon numaralarımızdan doğrudan bize ulaşabilirsiniz.
+                    </p>
+                    
+                    <div class="contact-details">
+                        <!-- Instg -->
+                        <div class="contact-item">
+                            <div class="contact-icon-box">
+                                <svg class="contact-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                                </svg>
+                            </div>
+                            <div class="contact-meta">
+                                <span>Instagram Hesabımız</span>
+                                <strong>@vanyamacparasut</strong>
+                            </div>
+                        </div>
+
+                        <!-- Phone 1 -->
+                        <div class="contact-item">
+                            <div class="contact-icon-box">
+                                <svg class="contact-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                                </svg>
+                            </div>
+                            <div class="contact-meta">
+                                <span>Telefon Numarası 1 (Gsm)</span>
+                                <strong>0545 598 34 41</strong>
+                            </div>
+                        </div>
+
+                        <!-- Phone 2 -->
+                        <div class="contact-item">
+                            <div class="contact-icon-box">
+                                <svg class="contact-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                                </svg>
+                            </div>
+                            <div class="contact-meta">
+                                <span>Telefon Numarası 2 (Gsm)</span>
+                                <strong>0533 087 88 34</strong>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-actions-grid">
+                        <a href="https://www.instagram.com/vanyamacparasut/" target="_blank" rel="noopener noreferrer" class="btn btn-instagram" aria-label="Instagram sayfamızı yeni sekmede aç">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="btn-svg-icon">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                            </svg>
+                            Instagram’dan Ulaş
+                        </a>
+                        
+                        <a href="tel:+905455983441" class="btn btn-call" aria-label="0545 598 34 41 numarasını ara">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="btn-svg-icon">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                            </svg>
+                            0545 598 34 41’i Ara
+                        </a>
+                        
+                        <a href="tel:+905330878834" class="btn btn-call" aria-label="0533 087 88 34 numarasını ara">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="btn-svg-icon">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                            </svg>
+                            0533 087 88 34’ü Ara
+                        </a>
+                    </div>
+                    
+                    <div class="contact-trust-box">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <span>Uçuşlar hava koşulları ve pilot değerlendirmesine göre planlanır.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <span class="footer-logo">Van Sportif Havacılık Kulübü</span>
+                <span class="footer-location">Van / İpekyolu</span>
+            </div>
+            
+            <p class="footer-tagline">Yamaç Paraşütü Eğitimleri • Tandem Uçuşlar • Sportif Havacılık</p>
+            
+            <div class="footer-divider"></div>
+            
+            <p class="footer-copy">&copy; 2026 Van Sportif Havacılık Kulübü. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
